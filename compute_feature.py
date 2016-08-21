@@ -8,8 +8,8 @@ import cv2
 
 import pickle
 
-path='/home/ashish/dip/chap2/whitehouse/images2/'
-images=imlist.get_imlist('/home/ashish/dip/chap2/whitehouse/images2/')
+path='/images/'
+images=imlist.get_imlist('/images/')
 featlist=[]
 deslist=[]
 print(images)
