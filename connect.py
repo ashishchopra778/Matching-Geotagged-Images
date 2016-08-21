@@ -8,7 +8,7 @@ from pylab import *
 threshold = 0 # min number of matches needed to create link
 g = pydot.Dot(graph_type='graph') # don't want the default directed graph
 
-imlist=imlist.get_imlist("/home/ashish/dip/chap2/whitehouse/images2")
+imlist=imlist.get_imlist("/images/")
 print(imlist)
 
 nbr_images=len(imlist)
